@@ -1,0 +1,36 @@
+{
+  "name": "@alexander499/configs",
+  "version": "1.0.6",
+  "description": "Opinionated ESLint flat config for Vue and TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "eslint-config-inspector": "pnpm dlx @eslint/config-inspector@latest"
+  },
+  "exports": "./index.ts",
+  "keywords": [],
+  "author": "Alexander499",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "packageManager": "pnpm@12.14.0",
+  "type": "module",
+  "peerDependencies": {
+    "@stylistic/eslint-plugin": "^5.0.0 || ^6.0.0",
+    "@vue/eslint-config-typescript": "^14.0.0",
+    "eslint": "^9.0.0 || ^10.0.0",
+    "eslint-plugin-vue": "^9.0.0 || ^10.0.0",
+    "typescript": "^5.0.0 || ^6.0.0",
+    "typescript-eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@vue/eslint-config-typescript": "^14.9.0",
+    "eslint": "^10.13.0",
+    "eslint-plugin-vue": "^10.11.1",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.0",
+    "vue-eslint-parser": "^10.4.1"
+  }
+}
