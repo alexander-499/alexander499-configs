@@ -1,6 +1,6 @@
 {
   "name": "@alexander499/configs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Opinionated ESLint flat config for Vue and TypeScript",
   "main": "index.ts",
   "scripts": {
